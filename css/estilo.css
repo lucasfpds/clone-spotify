@@ -113,10 +113,14 @@ nav.navbar-transparente {
 }
 
 .rotacionar {
-	-ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+	margin: 100px 0;
+	-ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 	padding-left: 80px;
+	flex-wrap: nowrap;
+	display: flex;
+	flex-direction: row;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -131,6 +135,9 @@ footer{
 
 }
 
+footer .container>div{
+	flex-wrap: nowrap;
+}
 footer h4 {
 	color: #919496;
 	font-size: 0.8em;
@@ -196,6 +203,16 @@ h3 {
 	}
 	.btn-custom {
 		margin: 10px 15px;
+	}
+	.rotacionar {
+		padding-left: 0px;
+	}
+	footer .container>div{
+		flex-direction: column;
+		gap: 50px;
+	}
+	footer *{
+		font-size: 1.1em;
 	}
 }
 
