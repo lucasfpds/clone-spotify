@@ -1,5 +1,6 @@
 # Clone Spotify
 
+
 <p>
 Html | Css | JavaScript | Bootstrap<br>
 Utilizando Bootstrap fiz um espelho da antiga página do Spotify com responsividade, com auxílio do boostrap fiz o uso além da responsividade o  carrossel e colapso de botões.
